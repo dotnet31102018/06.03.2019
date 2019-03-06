@@ -27,10 +27,5 @@ namespace _0603Dict
             return $"Customer Id: {Id} Name: {Name} BirthYear: {BirthYear} " +
                 $"Address: {Address} ";
         }
-
-        public override int GetHashCode()
-        {
-            return 1;
-        }
     }
 }
